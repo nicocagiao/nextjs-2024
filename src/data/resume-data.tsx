@@ -3,15 +3,15 @@ import AmbitLogo from "../images/logos/ambit.png";
 import BarepapersLogo from "../images/logos/barepapers.svg";
 import BimLogo from "../images/logos/bim.png";
 import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
+import PrintsLogo from "../images/logos/printsandcrafts.png";
 import EvercastLogo from "../images/logos/evercast.svg";
 import Howdy from "../images/logos/howdy.png";
 import JarockiMeLogo from "../images/logos/jarocki.svg";
 import JojoMobileLogo from "../images/logos/jojomobile.png";
 import MonitoLogo from "../images/logos/monito.svg";
 import MobileVikingsLogo from "../images/logos/mv.png";
-import NSNLogo from "../images/logos/nsn.svg";
-import ParabolLogo from "../images/logos/parabol.svg";
+import EjesLogo from "../images/logos/ejes.png";
+import IndecLogo from "../images/logos/indec.png";
 import TastyCloudLogo from "../images/logos/tastycloud.png";
 import YearProgressLogo from "../images/logos/yearprogress.svg";
 import Minimal from "../images/logos/minimal.svg";
@@ -20,259 +20,168 @@ import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Nicolás Cagiao",
+  initials: "NC",
+  location: "Buenos Aires, Argentina",
+  locationLink: "https://maps.app.goo.gl/m7wcy4nZQMXYD3FW7",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Fullstack developer & Infrastructure Engineer, based in Buenos Aires, Argentina. Spanish native speaker, B2 Upper/Intermediate English level. Ten years of experience working with teams, analyzing data, and meeting strict project deadlines.",
+  avatarUrl: "https://drive.google.com/file/d/1ck2uyZaFCiCY2h82gz--56j9q3A5elw7/view?usp=sharing",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "nico.cagiao@gmail.com",
+    tel: "+5491160170178",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/nicocagiao",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/nicocagiao/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/nicocagiao",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Universidad Tecnológica Nacional UTN",
+      degree: "Fullstack Web development",
+      start: "2019",
+      end: "2019",
     },
+    {
+      school: "Udemy",
+      degree: "Ultimate AWS Certified Solutions Architect Associate",
+      start: "2023",
+      end: "2023",
+    },
+    {
+      school: "Udemy",
+      degree: "Terraform",
+      start: "2023",
+      end: "2023",
+    },
+    {
+      school: "Alkemy",
+      degree: "Fullstack web development (Nodejs + React)",
+      start: "2022",
+      end: "2022"
+    }
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "INDEC",
+      link: "https://www.indec.gob.ar/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      title: "Senior external consultant",
+      logo: IndecLogo,
+      start: "2018",
+      end: "2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Monthly journalistic consultancy, data analysis, statistics, annual summary, and the creation of a monthly report evaluating the media performance of INDEC in the National Media Agenda. GoogleSheets",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "Prints&Crafts",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      title: "AWS Architect → Full Stack Developer",
+      logo: PrintsLogo,
+      start: "2022",
+      end: "2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Web App hosted in AWS infrastructure for a Screen Printing shop located in Buenos Aires. Live streaming server using Docker.",
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Alkemy Work Training Academy",
+      link: "https://www.alkemy.org/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "React + Node Developer",
+      start: "2022",
+      end: "2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Real work environment training for developing an ONG site - (React + Node, JWT, Axios, Redux, Formik, Express.js, SweetAlert, Jira, GIT, SCRUM)",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Ejes de Comunicación",
+      link: "http://ejes.com/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Media adviser → senior media auditor ",
+      logo: EjesLogo,
+      start: "2016",
+      end: "2022",
+      description: "Media clipping from print media, radio and TV monitoring through a digital platform. Analysis and creation of reports. Direct Client service.",
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "AWS Architecture",
+    "React/Next.js/",
     "Node.js",
     "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Redux",
+    "GIT",
+    "Docker",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Prints&Crafts Streaming",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Official proyect",
+        "JavaScript",
+        "CloudServices",
+        "Docker",
+        "Restreamer",
+        "Twitch",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "A Server to stream from a security camera",
+    },
+    {
+      title: "LeerPerfil",
+      techStack: ["Side Project", "JavaScript", "Chrome Web Store", "Browser Extension"],
+      description:
+        "Browser extension that facilitates to read Perfil.com without a paywall",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "leePerfil",
+        href: "https://chromewebstore.google.com/detail/leer-perfil/fekochhdlegibpdddlpfocgnlhchfbei?hl=es",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Alkemy Aceleration proyect",
+      techStack: ["Side Project", "React", "Node.js", "JWT", "Express.js", "Redux"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "Back end and front end for an ONG web app",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "Alkemy Certificate",
+        href: "https://assets.alkemy.org/certificates/auth0%7C6168e85402b3dd0071c97d44/017664da-1a0c-4db5-96fc-68a38c747286.png",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "WhatsApp Chat Analyzer",
+      techStack: ["Side Project", "JavaScript", "grafica.js", "p5.js"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Minimalist app to analize your chats with friends and family",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "ChatAnalyzer",
+        href: "https://github.com/nicocagiao/ChatAnalisis",
       },
     },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      {
+      title: "DsD News portal",
+      techStack: ["PHP", "HTML", "CSS", "Database"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        "News site made in PHP",
+      link:{
+        label: "DiarioSobreDiarios",
+        href: "https://github.com/nicocagiao/DsD"
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
